@@ -28,3 +28,13 @@ function parseDecimal(a) {
   parseFloat(a)
   return a
 }
+
+function inc(n) {
+  n++
+  return n
+}
+
+function dec(n) {
+  n--
+  return n
+}
