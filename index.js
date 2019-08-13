@@ -19,9 +19,9 @@ function divide(a,b) {
   return c
 }
 
-function makeInt(a) {
-  parseInt(a)
-  return a
+function makeInt(n) {
+  parseInt(n)
+  return n
 }
 
 function preserveDecimal(n) {
