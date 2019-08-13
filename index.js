@@ -1,4 +1,5 @@
-var a, b, n
+var a, b, c, n
 function add() {
-  return a + b
+  c = a + b
+  return c
 }
