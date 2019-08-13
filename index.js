@@ -19,7 +19,12 @@ function divide(a,b) {
   return c
 }
 
-function add(a,b) {
-  c = a + b
-  return c
+function makeInt(a) {
+  parseInt(a)
+  return a
+}
+
+function parseDecimal(a) {
+  parseFloat(a)
+  return a
 }
